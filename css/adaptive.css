@@ -1,0 +1,67 @@
+@media  (max-width:1200px){
+    .square{
+        display: none;
+    }
+}
+@media (max-width:992px){
+    .infoBlock--text{
+        max-width: 200px;
+    }
+    .title{
+        text-align: center;
+
+    }
+    .main--blockSert--layer{
+        max-width: 100%;
+    }
+}
+@media (max-width:769px){
+ 
+    .main--blockSert{
+        font-size: 0.8em;
+    }
+    .univName{
+        font-size: 14px;
+    }
+    .date{
+        font-size: 12px;
+    }
+    .contactsBlock--element,.subtitle,.infoBlock{
+        margin-left: 20px;
+    }
+    .main--skillblock--elem{
+        max-width: 70%;
+    }
+    
+    @media(max-width:630px) {
+        .layer{
+            flex-direction: column;
+        }
+        .header{
+            width: 100%;
+        }
+        .contactsBlock{
+            margin: 0 auto;
+        }
+        .infoBlock--layer{
+            justify-content: start;
+        }
+        .infoBlock--text{
+            max-width: 400px;
+            padding-bottom: 15px;
+        }
+        .infoBlock{
+            margin-left: 40px;
+        } 
+        
+    }
+
+}
+@media(max-width:420px){
+    .main--skillblock--elem{
+        max-width: 100%;
+    }
+    .main{
+        padding: 20px;
+    }
+}
