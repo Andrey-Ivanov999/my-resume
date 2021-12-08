@@ -1,6 +1,11 @@
 body{
     animation: show 2s;
 }
+
+@keyframes show {
+
+    from {opacity: 0;} to {opacity: 1;}
+    }
 .layer{
     display: flex;
 }
@@ -47,6 +52,7 @@ body{
     display: flex;
     align-items: center;
     padding-bottom: 10px;
+    padding-right: 5px;
     font-family: sans-serif;
  color: #424242;
 }
@@ -118,10 +124,7 @@ body{
     flex-direction: column;
 
 }
-@keyframes show {
 
-from {opacity: 0;} to {opacity: 1;}
-}
 .main--text{
     font-family: sans-serif;
     color: #424242;
@@ -155,6 +158,8 @@ from {opacity: 0;} to {opacity: 1;}
 }
 .date{
     font-family: sans-serif;
+    line-height: 156%;
+    
 }
 .main--workExp{
     padding-bottom: 30px;

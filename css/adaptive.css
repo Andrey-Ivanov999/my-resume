@@ -60,6 +60,7 @@
 @media(max-width:420px){
     .main--skillblock--elem{
         max-width: 100%;
+        font-size: 0.8em;
     }
     .main{
         padding: 20px;
